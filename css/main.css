@@ -1,13 +1,13 @@
 html {
   font-family: "Fredoka One", sans-serif;
   background:
-  repeating-linear-gradient(
-    -45deg,
-    #c9fcff,
-    #c9fcff 10px,
-    #d4fdff 10px,
-    #d4fdff 20px
-  );
+    repeating-linear-gradient(
+      -45deg,
+      #c9fcff,
+      #c9fcff 10px,
+      #d4fdff 10px,
+      #d4fdff 20px
+    );
 }
 
 header {
@@ -51,30 +51,95 @@ img {
 
 .cherry {
   width: 180px;
-  top: -30px;
+  bottom: 100%;
   right: 65px;
+  animation: cherry-drop .5s 1.5s ease-in-out forwards;
+}
+
+@keyframes cherry-drop {
+
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: -30px;
+  }
+
 }
 
 .vanilla {
   width: 180px;
-  top: 50px;
+  bottom: 100%;
   right: 65px;
+  animation: vanilla-drop .5s 1.2s linear forwards;
+}
+
+@keyframes vanilla-drop {
+
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 50px;
+  }
+
 }
 
 .chocolate {
   width: 180px;
-  top: 125px;
+  bottom: 100%;
   right: 60px;
+  animation: chocolate-drop .5s .9s linear forwards;
+}
+
+@keyframes chocolate-drop {
+
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 125px;
+  }
+
 }
 
 .mint {
   width: 180px;
-  top: 190px;
+  bottom: 100%;
   right: 65px;
+  animation: mint-drop .5s .5s linear forwards;
+}
+
+@keyframes mint-drop {
+
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 190px;
+  }
+
 }
 
 .cone {
   width: 180px;
-  top: 295px;
+  bottom: 100%;
   right: 65px;
+  animation: cone-drop .5s linear forwards;
+}
+
+@keyframes cone-drop {
+
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 295px;
+  }
+
 }
