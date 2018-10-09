@@ -19,7 +19,6 @@ header {
 .text {
   animation: flip-out .5s linear forwards;
   bottom: 100%;
-  text-shadow: #b3fbff;
 }
 
 @keyframes flip-out {
@@ -31,7 +30,7 @@ header {
   }
 
   100% {
-    opacity: 99%;
+    opacity: 1.0;
     filter: blur(0px);
   }
 
@@ -41,6 +40,7 @@ h1 {
   color: #990073;
   transform: rotate(-10deg);
   transform-origin: left center;
+  text-shadow: 2px 2px #c09;
 }
 
 p {
