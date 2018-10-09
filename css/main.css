@@ -3,14 +3,7 @@ html {
 }
 
 header {
-  background:
-    repeating-linear-gradient(
-      -45deg,
-      #c9fcff,
-      #c9fcff 10px,
-      #d4fdff 10px,
-      #d4fdff 20px
-    );
+  background: repeating-linear-gradient(-45deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
   border-top: solid 8px #b3fbff;
   border-bottom: solid 8px #b3fbff;
   height: 500px;
@@ -31,7 +24,7 @@ header {
 
   100% {
     opacity: 1;
-    filter: blur(0px);
+    filter: blur(0);
   }
 
 }
