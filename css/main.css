@@ -34,7 +34,7 @@ p {
 }
 
 .btn-ghost {
-  background-color: none;
+  border-color: #990073;
 }
 
 .btn-ghost:hover {
