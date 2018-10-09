@@ -1,3 +1,44 @@
 html {
   font-family: 'Fredoka One', cursive;
+  background: repeating-linear-gradient(
+    -45deg,
+    #c9fcff,
+    #c9fcff 10px,
+    #d4fdff 10px,
+    #d4fdff 20px
+    );
+}
+
+header {
+  border-top: solid 8px #b3fbff;
+  border-bottom: solid 8px #b3fbff;
+}
+
+img {
+  position: absolute;
+}
+
+.cherry {
+  top: 10px;
+  right: 50px;
+}
+
+.vanilla {
+  top: 0px;
+  right: 50px;
+}
+
+.chocolate{
+  top: 80px;
+  right: 50px;
+}
+
+.mint {
+  top: 190px;
+  right: 50px;
+}
+
+.cone {
+  top: 340px;
+  right: 50px;
 }
