@@ -1,5 +1,5 @@
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   background: repeating-linear-gradient(
     -45deg,
     #c9fcff,
@@ -10,8 +10,29 @@ html {
 }
 
 header {
+  height: auto;
   border-top: solid 8px #b3fbff;
   border-bottom: solid 8px #b3fbff;
+  height: 600px;
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+}
+
+p {
+  color: #c09;
+  max-width: 19em;
+  transform: rotate(-5deg);
+}
+
+.btn {
+  border-color: #990073;
+}
+
+span {
+  color: #c09;
 }
 
 img {
@@ -19,26 +40,31 @@ img {
 }
 
 .cherry {
-  top: 10px;
+  width: 200px;
+  bottom: 440px;
   right: 50px;
 }
 
 .vanilla {
-  top: 0px;
+  width: 200px;
+  bottom: 350px;
   right: 50px;
 }
 
 .chocolate{
-  top: 80px;
-  right: 50px;
+  width: 200px;
+  top: 130px;
+  right: 40px;
 }
 
 .mint {
-  top: 190px;
+  width: 200px;
+  top: 225px;
   right: 50px;
 }
 
 .cone {
-  top: 340px;
+  width: 200px;
+  top: 343px;
   right: 50px;
 }
