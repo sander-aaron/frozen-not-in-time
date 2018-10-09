@@ -1,5 +1,8 @@
 html {
   font-family: "Fredoka One", sans-serif;
+}
+
+header {
   background:
     repeating-linear-gradient(
       -45deg,
@@ -8,12 +11,30 @@ html {
       #d4fdff 10px,
       #d4fdff 20px
     );
-}
-
-header {
   border-top: solid 8px #b3fbff;
   border-bottom: solid 8px #b3fbff;
   height: 500px;
+}
+
+.text {
+  animation: flip-out .5s linear forwards;
+  bottom: 100%;
+  text-shadow: #b3fbff;
+}
+
+@keyframes flip-out {
+
+  0% {
+    opacity: 0;
+    top: 100px;
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 99%;
+    filter: blur(0px);
+  }
+
 }
 
 h1 {
