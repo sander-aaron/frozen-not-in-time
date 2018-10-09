@@ -40,31 +40,31 @@ img {
 }
 
 .cherry {
-  width: 200px;
-  bottom: 440px;
+  width: 150px;
+  top: -30px;
   right: 50px;
 }
 
 .vanilla {
-  width: 200px;
-  bottom: 350px;
+  width: 150px;
+  top: 40px;
   right: 50px;
 }
 
 .chocolate{
-  width: 200px;
-  top: 130px;
-  right: 40px;
+  width: 150px;
+  top: 100px;
+  right: 45px;
 }
 
 .mint {
-  width: 200px;
-  top: 225px;
+  width: 150px;
+  top: 170px;
   right: 50px;
 }
 
 .cone {
-  width: 200px;
-  top: 343px;
+  width: 150px;
+  top: 258px;
   right: 50px;
 }
