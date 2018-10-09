@@ -1,34 +1,44 @@
 html {
-  font-family: 'Fredoka One', sans-serif;
-  background: repeating-linear-gradient(
+  font-family: "Fredoka One", sans-serif;
+  background:
+  repeating-linear-gradient(
     -45deg,
     #c9fcff,
     #c9fcff 10px,
     #d4fdff 10px,
     #d4fdff 20px
-    );
+  );
 }
 
 header {
-  height: auto;
   border-top: solid 8px #b3fbff;
   border-bottom: solid 8px #b3fbff;
-  height: 600px;
+  height: 500px;
 }
 
 h1 {
   color: #990073;
   transform: rotate(-10deg);
+  transform-origin: left center;
 }
 
 p {
   color: #c09;
   max-width: 19em;
   transform: rotate(-5deg);
+  transform-origin: left center;
 }
 
 .btn {
   border-color: #990073;
+}
+
+.btn-ghost {
+  background-color: none;
+}
+
+.btn-ghost:hover {
+  border-color: #c09;
 }
 
 span {
@@ -40,31 +50,31 @@ img {
 }
 
 .cherry {
-  width: 150px;
+  width: 180px;
   top: -30px;
-  right: 50px;
+  right: 65px;
 }
 
 .vanilla {
-  width: 150px;
-  top: 40px;
-  right: 50px;
+  width: 180px;
+  top: 50px;
+  right: 65px;
 }
 
-.chocolate{
-  width: 150px;
-  top: 100px;
-  right: 45px;
+.chocolate {
+  width: 180px;
+  top: 125px;
+  right: 60px;
 }
 
 .mint {
-  width: 150px;
-  top: 170px;
-  right: 50px;
+  width: 180px;
+  top: 190px;
+  right: 65px;
 }
 
 .cone {
-  width: 150px;
-  top: 258px;
-  right: 50px;
+  width: 180px;
+  top: 295px;
+  right: 65px;
 }
