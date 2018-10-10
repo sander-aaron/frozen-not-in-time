@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  background: repeating-linear-gradient(-35deg, #c9fcff, #c9fcff 12px, #d4fdff 12px, #d4fdff 24px);
   border-top: solid 8px #b3fbff;
   border-bottom: solid 8px #b3fbff;
   height: 500px;
@@ -66,7 +66,7 @@ img {
 .cherry {
   width: 180px;
   bottom: 100%;
-  right: 65px;
+  right: 120px;
   animation: cherry-drop .5s 1.5s ease-in-out forwards;
 }
 
@@ -85,7 +85,7 @@ img {
 .vanilla {
   width: 180px;
   bottom: 100%;
-  right: 65px;
+  right: 120px;
   animation: vanilla-drop .5s 1.2s linear forwards;
 }
 
@@ -104,7 +104,7 @@ img {
 .chocolate {
   width: 180px;
   bottom: 100%;
-  right: 60px;
+  right: 115px;
   animation: chocolate-drop .5s .9s linear forwards;
 }
 
@@ -123,7 +123,7 @@ img {
 .mint {
   width: 180px;
   bottom: 100%;
-  right: 65px;
+  right: 120px;
   animation: mint-drop .5s .5s linear forwards;
 }
 
@@ -142,7 +142,7 @@ img {
 .cone {
   width: 180px;
   bottom: 100%;
-  right: 65px;
+  right: 120px;
   animation: cone-drop .5s linear forwards;
 }
 
