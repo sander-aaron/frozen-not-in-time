@@ -9,6 +9,11 @@ header {
   height: 500px;
 }
 
+.pieces {
+  min-height: 480px;
+  background: red;
+}
+
 .text {
   animation: flip-out .5s linear forwards;
   bottom: 100%;
@@ -63,97 +68,89 @@ img {
   position: absolute;
 }
 
-.cherry {
+.ice-cream {
   width: 180px;
   bottom: 100%;
-  right: 120px;
+  left: 50%;
+  transform: translateX(-50px);
+}
+
+.cherry {
   animation: cherry-drop .5s 1.5s ease-in-out forwards;
 }
 
 @keyframes cherry-drop {
 
   0% {
-    top: -150px;
+    bottom: 100%;
   }
 
   100% {
-    top: -30px;
+    bottom: 350px;
   }
 
 }
 
 .vanilla {
-  width: 180px;
-  bottom: 100%;
-  right: 120px;
   animation: vanilla-drop .5s 1.2s linear forwards;
 }
 
 @keyframes vanilla-drop {
 
   0% {
-    top: -150px;
+    bottom: 100%;
   }
 
   100% {
-    top: 50px;
+    bottom: 265px;
   }
 
 }
 
 .chocolate {
-  width: 180px;
-  bottom: 100%;
-  right: 115px;
   animation: chocolate-drop .5s .9s linear forwards;
 }
 
 @keyframes chocolate-drop {
 
   0% {
-    top: -150px;
+    bottom: 100%;
   }
 
   100% {
-    top: 125px;
+    bottom: 190px;
   }
 
 }
 
 .mint {
-  width: 180px;
-  bottom: 100%;
-  right: 120px;
   animation: mint-drop .5s .5s linear forwards;
 }
 
 @keyframes mint-drop {
 
   0% {
-    top: -150px;
+    bottom: 100%;
   }
 
   100% {
-    top: 190px;
+    bottom: 104px;
   }
 
 }
 
 .cone {
-  width: 180px;
-  bottom: 100%;
-  right: 120px;
   animation: cone-drop .5s linear forwards;
 }
 
 @keyframes cone-drop {
 
   0% {
-    top: -150px;
+    bottom: 100%;
   }
 
   100% {
-    top: 295px;
+    bottom: 0;
   }
 
 }
