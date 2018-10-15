@@ -11,7 +11,6 @@ header {
 
 .pieces {
   min-height: 480px;
-  background: red;
 }
 
 .text {
@@ -71,7 +70,7 @@ img {
 .ice-cream {
   width: 180px;
   bottom: 100%;
-  left: 50%;
+  left: 42%;
   transform: translateX(-50px);
 }
 
