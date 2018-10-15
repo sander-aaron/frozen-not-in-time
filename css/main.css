@@ -14,7 +14,7 @@ header {
 }
 
 .text {
-  animation: flip-out .5s linear forwards;
+  animation: flip-out 1s linear forwards;
   bottom: 100%;
 }
 
@@ -22,7 +22,7 @@ header {
 
   0% {
     opacity: 0;
-    top: 100px;
+    bottom: 100%;
     filter: blur(10px);
   }
 
