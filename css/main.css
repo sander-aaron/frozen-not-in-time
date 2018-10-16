@@ -75,7 +75,7 @@ img {
 }
 
 .cherry {
-  animation: cherry-drop .15s 1.5s ease-in forwards;
+  animation: cherry-drop 150ms 1.5s ease-in forwards;
 }
 
 @keyframes cherry-drop {
