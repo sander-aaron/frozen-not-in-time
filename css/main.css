@@ -75,7 +75,7 @@ img {
 }
 
 .cherry {
-  animation: cherry-drop .5s 1.5s ease-in-out forwards;
+  animation: cherry-drop .11s 1.5s ease-in forwards;
 }
 
 @keyframes cherry-drop {
@@ -91,7 +91,7 @@ img {
 }
 
 .vanilla {
-  animation: vanilla-drop .5s 1.2s linear forwards;
+  animation: vanilla-drop .2s .9s ease-in forwards;
 }
 
 @keyframes vanilla-drop {
@@ -107,7 +107,7 @@ img {
 }
 
 .chocolate {
-  animation: chocolate-drop .5s .9s linear forwards;
+  animation: chocolate-drop .3s .6s ease-in forwards;
 }
 
 @keyframes chocolate-drop {
@@ -123,7 +123,7 @@ img {
 }
 
 .mint {
-  animation: mint-drop .5s .5s linear forwards;
+  animation: mint-drop .3s .3s ease-in forwards;
 }
 
 @keyframes mint-drop {
@@ -139,7 +139,7 @@ img {
 }
 
 .cone {
-  animation: cone-drop .5s linear forwards;
+  animation: cone-drop .3s ease-in forwards;
 }
 
 @keyframes cone-drop {
